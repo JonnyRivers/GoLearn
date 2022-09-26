@@ -1,3 +1,3 @@
-module hello-world
+module variables
 
 go 1.19

@@ -77,7 +77,7 @@ func (g greeter) greet() {
 	fmt.Println(g.greeting, g.name)
 }
 
-// struct method with this by value
+// struct method with this by reference
 func (g *greeter) setName(newName string) {
 	g.name = newName
 }
